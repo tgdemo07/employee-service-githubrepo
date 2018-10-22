@@ -1,5 +1,6 @@
 package payroll.employeeservice;
 
+@SuppressWarnings("serial")
 class EmployeeNotFoundException extends RuntimeException {
 
 	EmployeeNotFoundException(Long id) {
