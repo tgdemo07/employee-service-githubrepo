@@ -21,7 +21,7 @@ public class EmployeeServiceRestTests {
 	@Test
 	public void exampleTest() {
 		Employee body = this.restTemplate.getForObject("/employees/1", Employee.class);
-		assertThat(body.getRole()).isIn("burglar", "thief");
+		assertThat(body.getRole()).isIn("burglar2", "thief2");
 	}
 
 }
